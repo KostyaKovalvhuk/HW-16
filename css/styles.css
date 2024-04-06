@@ -1,0 +1,11 @@
+.bg-box {
+    outline: solid 3px red;
+    width: 900px;
+    height: 500px;
+    margin: 15px     auto;
+    background-image: url(../images/grass.png), url(../images/pole.webp), url(../images/animal.webp), url(../images/lamp.png), url(../images/ponchik.png);
+    background-repeat:repeat-x, no-repeat,repeat-y, repeat-x, repeat-y;
+    background-size: 20%, 50%, 4%, 4%, 4%;
+    background-position: bottom, center, left, top, right;
+    background-color: green;
+}
